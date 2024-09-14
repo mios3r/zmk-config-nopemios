@@ -1,0 +1,10 @@
+file_format: "1"
+id: nopemios
+name: nopemios
+type: shield
+url: https://github.com/mios3r
+requires:
+  - pro_micro
+features:
+  - keys
+  - encoder

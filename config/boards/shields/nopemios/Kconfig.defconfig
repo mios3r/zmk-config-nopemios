@@ -1,0 +1,6 @@
+if SHIELD_NOPEMIOS
+
+config ZMK_KEYBOARD_NAME
+    default "nopemios"
+
+endif
