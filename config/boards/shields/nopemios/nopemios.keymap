@@ -46,7 +46,7 @@
 
         connection_layer {
             bindings = <
-                &none           &none         &studio_unlock      &to 0
+                &none           &none         &none               &to 0
                 &none           &none         &none               &bt BT_SEL 0
                 &none           &none         &none               &bt BT_SEL 1
                 &bootloader     &none         &bt BT_CLR_ALL      &bt BT_SEL 2
