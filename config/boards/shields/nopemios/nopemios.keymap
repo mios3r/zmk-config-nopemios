@@ -35,9 +35,9 @@
         fucntion_layer {
             bindings = <
                 &trans                &kp F21             &kp F24        &to 2
-                &kp LG(LS(LEFT))      &kp F22             &kp DEL        &kp INS
-                &kp LG(LS(DOWN))      &kp LG(LS(UP))      &kp END        &kp HOME
-                &kp LG(LS(RIGHT))     &kp F23             &kp PG_DN      &kp PG_UP
+                &kp LG(LS(LEFT))      &kp F22             &kp LEFT        &kp INS
+                &kp LG(LS(DOWN))      &kp LG(LS(UP))      &kp DOWN        &kp UP
+                &kp LG(LS(RIGHT))     &kp F23             &kp RIGHT      &kp ENTER
             >;
             
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
